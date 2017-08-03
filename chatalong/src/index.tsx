@@ -6,7 +6,7 @@ import config from './common/config';
 import { Provider, observer } from 'mobx-react';
 import ChatStore from './Store/chatStore';
 
-const renderComponent = (): any => {
+const renderComponent = (): any => {  
   if (config.useDevTools) {
     const DevTools = require('mobx-react-devtools').default;
     return observer(class extends React.Component<any, any>{

@@ -1,7 +1,7 @@
 import * as React from 'react';
 import './App.css';
-import { ChatRenderer } from './components/chatRenderer';
-import { ChatForm } from './components/chatForm';
+import { ChatRenderer } from './components/chat/chatRenderer';
+import { ChatForm } from './components/form/chatForm';
 import ChatStore from './Store/chatStore';
 import DevTools from 'mobx-react-devtools';
 import { Provider } from 'mobx-react';

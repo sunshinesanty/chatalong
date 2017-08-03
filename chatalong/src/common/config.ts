@@ -1,5 +1,7 @@
 const config = {
-    useDevTools: true
+    useDevTools: true,
+    defaultUser: 'Santosh',
+    editorPlaceholderText: 'What\'s on your mind'
 };
 
 export default config;

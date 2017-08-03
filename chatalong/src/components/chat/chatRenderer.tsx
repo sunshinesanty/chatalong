@@ -2,8 +2,7 @@ import * as React from 'react';
 
 import { observer, inject } from 'mobx-react';
 import PerChat from './perChat';
-import { IConversation, Iprops } from '../interfaces/ChatInterfaces';
-import LikeRenderer from './like';
+import { IConversation, Iprops } from '../../interfaces/ChatInterfaces';
 
 @inject('chatStore')
 @observer

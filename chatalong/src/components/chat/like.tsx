@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { ILikeRendererProps, ILikeRendererState } from '../interfaces/ChatInterfaces';
+import { ILikeRendererProps, ILikeRendererState } from '../../interfaces/ChatInterfaces';
 import { observer, inject } from 'mobx-react';
 
 @inject('chatStore') @observer
@@ -40,7 +40,7 @@ class LikeRenderer extends React.Component<ILikeRendererProps, ILikeRendererStat
         const buttonStyle = `btn ${this.state.isLiked ? 'btn-info' : 'btn-default'} btn-sm`;
         const likeCountText = this.state.likeCount > 0 ? `(${this.state.likeCount})` : '';
         return (
-            <div>
+            <div className="col-xs-6">
                 <button type="button" className={buttonStyle} onClick={this.onClicked}>
                     <span className="glyphicon glyphicon-thumbs-up" /> {likeCountText}
                 </button>

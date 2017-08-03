@@ -5,6 +5,10 @@ export interface IChatFormState {
     username: string;
     content: string;
 }
+export interface IDelete extends IStoreProp {
+    conversationID: number;
+    createdBy: string;
+}
 export interface IStoreProp {
     chatStore?: ChatStoreObject;
 }
@@ -47,6 +51,11 @@ export interface ILike {
     username: string;
     created: string;
     modified: string;
+}
+
+export interface ITagData {
+  Name: string;
+  Link?: string;
 }
 
 class ChatChaceKeys {

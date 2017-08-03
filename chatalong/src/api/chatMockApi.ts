@@ -1,6 +1,7 @@
 import { IConversation, ILike, ChaceKeys } from '../interfaces/ChatInterfaces';
 import DataCache from './storageHandler';
 import commonUtils from '../common/utils';
+import config from '../common/config';
 
 let conversations: IConversation[] = [];
 
@@ -78,9 +79,13 @@ export const GetPostLikesByID = (conversationID: number): Promise<ILike[]> => {
     });
 };
 
+export const GetLoggedInUser = (): string => {
+    return config.defaultUser;
+};
+
 export const LoadUsers = (): string[] => {
     let users: string[] = DataCache.getItem('usernames');
-    if (!users) { users = ['Santy']; }
+    if (!users) { users = [config.defaultUser]; }
     return users;
 };
 

@@ -6,30 +6,318 @@ exports[`Components rendering chat window to be rendered should be toggled 1`] =
 >
   <ul
     className="list-group"
-  />
+  >
+    <div>
+      <li
+        className="list-group-item"
+      >
+        <div
+          className="row chatRow"
+        >
+          <div
+            className="col-md-1 col-sm-2 col-xs-2 uname badge"
+          >
+            Santosh
+             : 
+          </div>
+          <div
+            className="col-md-9 col-sm-8 col-xs-6"
+          >
+            <div
+              className=""
+              onClick={[Function]}
+              style={
+                Object {
+                  "display": "inline-table",
+                  "minHeight": "120px",
+                  "textAlign": "left",
+                }
+              }
+            >
+              <div
+                className="DraftEditor-root"
+              >
+                <div
+                  className="DraftEditor-editorContainer"
+                >
+                  <div
+                    aria-activedescendant={null}
+                    aria-autocomplete={null}
+                    aria-describedby={null}
+                    aria-expanded={null}
+                    aria-haspopup={null}
+                    aria-label={undefined}
+                    aria-owns={null}
+                    autoCapitalize={undefined}
+                    autoComplete={undefined}
+                    autoCorrect={undefined}
+                    className="public-DraftEditor-content"
+                    contentEditable={false}
+                    data-testid={undefined}
+                    onBeforeInput={[Function]}
+                    onBlur={[Function]}
+                    onCompositionEnd={[Function]}
+                    onCompositionStart={[Function]}
+                    onCopy={[Function]}
+                    onCut={[Function]}
+                    onDragEnd={[Function]}
+                    onDragEnter={[Function]}
+                    onDragLeave={[Function]}
+                    onDragOver={[Function]}
+                    onDragStart={[Function]}
+                    onDrop={[Function]}
+                    onFocus={[Function]}
+                    onInput={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyPress={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseUp={[Function]}
+                    onPaste={[Function]}
+                    onSelect={[Function]}
+                    role={null}
+                    spellCheck={false}
+                    style={
+                      Object {
+                        "outline": "none",
+                        "whiteSpace": "pre-wrap",
+                        "wordWrap": "break-word",
+                      }
+                    }
+                    suppressContentEditableWarning={true}
+                    tabIndex={undefined}
+                  >
+                    <div
+                      data-contents="true"
+                    >
+                      <div
+                        className=""
+                        data-block={true}
+                        data-editor="2nhbe"
+                        data-offset-key="21kqc-0-0"
+                      >
+                        <div
+                          className="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                          data-offset-key="21kqc-0-0"
+                        >
+                          <span
+                            data-offset-key="21kqc-0-0"
+                            style={Object {}}
+                          >
+                            <span
+                              data-text="true"
+                            >
+                              Sample Test
+                            </span>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div
+            className="col-md-2 col-sm-2 col-xs-2 delContainer"
+          >
+            <div
+              className="row"
+            >
+              <div
+                className="col-xs-6"
+              >
+                <button
+                  className="btn btn-info btn-sm"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="glyphicon glyphicon-thumbs-up"
+                  />
+                   
+                  (1)
+                </button>
+              </div>
+              <div
+                className="col-xs-6"
+              >
+                <button
+                  className="btn btn-danger btn-sm"
+                  onClick={[Function]}
+                  type="button"
+                >
+                  <span
+                    className="glyphicon glyphicon-trash"
+                  />
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </li>
+    </div>
+  </ul>
 </div>
 `;
 
 exports[`Components rendering individual Chat should be rendered without crashing 1`] = `
 <div>
-  <button
-    className="btn btn-default btn-sm"
-    onClick={[Function]}
-    type="button"
+  <li
+    className="list-group-item"
   >
-    <span
-      className="glyphicon glyphicon-thumbs-up"
-    />
-     
-    
-  </button>
+    <div
+      className="row chatRow"
+    >
+      <div
+        className="col-md-1 col-sm-2 col-xs-2 uname badge"
+      >
+        Santosh
+         : 
+      </div>
+      <div
+        className="col-md-9 col-sm-8 col-xs-6"
+      >
+        <div
+          className=""
+          onClick={[Function]}
+          style={
+            Object {
+              "display": "inline-table",
+              "minHeight": "120px",
+              "textAlign": "left",
+            }
+          }
+        >
+          <div
+            className="DraftEditor-root"
+          >
+            <div
+              className="DraftEditor-editorContainer"
+            >
+              <div
+                aria-activedescendant={null}
+                aria-autocomplete={null}
+                aria-describedby={null}
+                aria-expanded={null}
+                aria-haspopup={null}
+                aria-label={undefined}
+                aria-owns={null}
+                autoCapitalize={undefined}
+                autoComplete={undefined}
+                autoCorrect={undefined}
+                className="public-DraftEditor-content"
+                contentEditable={false}
+                data-testid={undefined}
+                onBeforeInput={[Function]}
+                onBlur={[Function]}
+                onCompositionEnd={[Function]}
+                onCompositionStart={[Function]}
+                onCopy={[Function]}
+                onCut={[Function]}
+                onDragEnd={[Function]}
+                onDragEnter={[Function]}
+                onDragLeave={[Function]}
+                onDragOver={[Function]}
+                onDragStart={[Function]}
+                onDrop={[Function]}
+                onFocus={[Function]}
+                onInput={[Function]}
+                onKeyDown={[Function]}
+                onKeyPress={[Function]}
+                onKeyUp={[Function]}
+                onMouseUp={[Function]}
+                onPaste={[Function]}
+                onSelect={[Function]}
+                role={null}
+                spellCheck={false}
+                style={
+                  Object {
+                    "outline": "none",
+                    "whiteSpace": "pre-wrap",
+                    "wordWrap": "break-word",
+                  }
+                }
+                suppressContentEditableWarning={true}
+                tabIndex={undefined}
+              >
+                <div
+                  data-contents="true"
+                >
+                  <div
+                    className=""
+                    data-block={true}
+                    data-editor="6vulq"
+                    data-offset-key="41sb4-0-0"
+                  >
+                    <div
+                      className="public-DraftStyleDefault-block public-DraftStyleDefault-ltr"
+                      data-offset-key="41sb4-0-0"
+                    >
+                      <span
+                        data-offset-key="41sb4-0-0"
+                        style={Object {}}
+                      >
+                        <span
+                          data-text="true"
+                        >
+                          Sample Test
+                        </span>
+                      </span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        className="col-md-2 col-sm-2 col-xs-2 delContainer"
+      >
+        <div
+          className="row"
+        >
+          <div
+            className="col-xs-6"
+          >
+            <button
+              className="btn btn-info btn-sm"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="glyphicon glyphicon-thumbs-up"
+              />
+               
+              (1)
+            </button>
+          </div>
+          <div
+            className="col-xs-6"
+          >
+            <button
+              className="btn btn-danger btn-sm"
+              onClick={[Function]}
+              type="button"
+            >
+              <span
+                className="glyphicon glyphicon-trash"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </li>
 </div>
 `;
 
 exports[`Components rendering like should be rendered withut crashing 1`] = `
-<div>
+<div
+  className="col-xs-6"
+>
   <button
-    className="btn btn-default btn-sm"
+    className="btn btn-info btn-sm"
     onClick={[Function]}
     type="button"
   >
@@ -37,7 +325,7 @@ exports[`Components rendering like should be rendered withut crashing 1`] = `
       className="glyphicon glyphicon-thumbs-up"
     />
      
-    
+    (1)
   </button>
 </div>
 `;

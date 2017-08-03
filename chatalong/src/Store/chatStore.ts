@@ -1,6 +1,7 @@
 import chatPost from '../Store/conversations';
 import Like from '../Store/likes';
 import { observable } from 'mobx';
+import * as apis from '../api/chatMockApi';
 
 export class ChatStoreObject {
     chat: chatPost;
@@ -9,6 +10,7 @@ export class ChatStoreObject {
     constructor() {
         this.chat = new chatPost();
         this.likes = new Like();
+        this.activeUserName = apis.GetLoggedInUser();
     }
 }
 
